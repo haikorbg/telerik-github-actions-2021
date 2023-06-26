@@ -1,5 +1,6 @@
 name: Deployment-of-Nikola's-app
-on: [push]
+on: 
+  [push, pull_request]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
